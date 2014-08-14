@@ -1,0 +1,57 @@
+#historia div p, #historia div h2, #historia div h3{
+	margin: auto;
+	width: 60%;
+	text-align: justify;
+}
+
+#historia div{
+	margin:3em 0px;
+}
+
+#historia h2{
+	margin: 1.5em 23%;
+}
+
+#historia div h3{
+	padding-top: 0.5em;
+	margin:1em 20%; 
+	font-size: 2em;
+	text-shadow:black 2px 2px 5px;
+
+}
+
+#historia div p{
+	padding-bottom:1em; 
+}
+
+#hist1{
+	background-color: #24c9bb;
+	color:white;
+	text-shadow:gray 2px 2px 5px;
+}
+
+#hist2{
+	background-color: #0095e5;
+	color:white;
+	text-shadow:gray 2px 2px 5px; 
+}
+
+#hist3{
+	background-color: #c95924;
+	color:white;
+	text-shadow:black 2px 2px 5px; 
+}
+
+#hist1 .icon-globe{
+	color:white;
+	font-size: 4em;
+	float:right;
+
+}
+
+#hist3 .icon-legal{
+	color:white;
+	font-size: 4em;
+	
+
+}

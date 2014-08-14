@@ -1,0 +1,42 @@
+#secretarias #secre {
+	margin:auto;
+	width: 100%;
+	
+}
+
+#secretarias #secre h2{
+	margin-left: 3em;
+	margin-bottom:2em;
+	
+}
+
+#secretarias #secre table{
+	margin:auto;
+	color:white;
+	background-color:#2b3a6b; 
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: yellow 2px 0px 30px;
+
+}
+#secretarias #secre table tr{
+
+}
+#secretarias #secre table tr td{
+	/*border: 1px solid red;*/
+	text-align: justify;
+	border: 7px solid white;
+	border-radius: 15px;
+	text-shadow:black 2px 2px 2px;
+
+	
+}
+
+#secretarias #secre table tr td ul {
+	padding-left: 0px;
+	margin-left: 1.2em;
+} 
+
+#secretarias #secre table tr td li {
+	font-size: 12px;
+} 

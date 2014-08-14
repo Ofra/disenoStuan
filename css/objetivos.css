@@ -1,0 +1,36 @@
+#lista1_obj{
+	display:none;
+}
+
+#lista2_obj{
+	display:none;
+}
+
+#objetivos{
+	margin:auto;
+	width: 60%;
+}
+
+.objli {
+	background-color: #0095e5;
+	margin-bottom: 1em;
+	padding: 1em;
+	color:white;
+	text-shadow:black 2px 2px 2px;
+}
+
+#objli1:hover, #objli2:hover{
+	background-color: #0065e5;
+}
+
+#objetivo_gral h2{
+	margin-left:0em;
+}
+
+#objetivo_gral p{
+	text-align: justify;
+}
+
+#objetivos li{
+	text-align: justify;
+}

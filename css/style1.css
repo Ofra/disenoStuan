@@ -1,0 +1,59 @@
+
+
+a								{ text-decoration: none; outline: none; }
+a img							{ border: none; }
+
+h2								{ font-family: Georgia, Serif; font-size: 36px; text-align: center; 
+								  font-weight: normal; }
+
+#page-wrap						{ background: white; width: 960px; margin: 0 auto; 
+								  padding: 0px 0; border-bottom: 5px dashed orange}
+
+#slider							{ background: white;   height: 300px; overflow: hidden;
+								  position: relative; margin: 50px 0; }
+								  
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */								  
+#mover							{ width: 2880px; position: relative; }
+
+.slide							{ padding: 40px 30px; width: 900px; float:left; position: relative; left: 6em; }
+.slide h1						{ font-family: Helvetica, Sans-Serif; font-size: 30px; letter-spacing: -1px;
+								  color: #0095e5; text-shadow:blue 2px 2px 2px; }
+.slide p						{ color: #999; font-size: 12px; line-height: 22px; width: 300px; }
+.slide img						{ position: absolute; top: 20px; left: 400px; }
+#slider-stopper					{ position: absolute; top: 1px; right: 50px; background: #0095e5; color: white;
+								  padding: 3px 5px; font-size: 10px; text-transform: uppercase; z-index: 1000;
+								  box-shadow: black 2px 2px 2px; }
+#slider-stopper:hover{
+	font-size: 11px;
+	background: #0055e5;
+}
+
+.slide a img{
+	width:300px;
+	box-shadow: black 0px 0px 10px;
+}
+
+#slidder{
+	background: #00C5e5;
+}
+
+<section id="slidder">
+				<div id="page-wrap">
+					<!--<h2>Galeria Fotografica</h2-->
+					<div id="slider">
+						<div id="mover">
+							<div id="slide-1" class="slide">
+								<h1>Garden Rack</h1>
+								<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
+								<a href="#"><img src="img/uan.jpeg"  /></a>
+							</div>
+							<div class="slide">
+								<h1>Tulip Bulbs</h1>
+								<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
+								<a href="#"><img src="img/stuan.jpg"  /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>

@@ -1,0 +1,311 @@
+header nav .icon-list-ul{
+	display: none;
+}
+
+#nav_falso{
+	display: none;
+}
+
+@media screen and (max-width: 1050px){
+	header nav #loggin_nav{
+		display: none;
+	}
+
+	header nav .icon-list-ul{
+		display: block;
+		background-color: #22BCE0;
+		border-radius: 7%;
+		color:white;
+		top:0.5em;
+		position: absolute;
+		padding: 0.5em 1em;
+		right:30px;
+		text-decoration: none;
+		box-shadow: black 1px 1px 5px;
+		font-size: 1.1em;
+	}
+
+	header nav .icon-list-ul:hover{
+		text-shadow: black 2px 2px 2px;
+		box-shadow: white 1px 1px 10px;
+	}
+
+	header nav ul{
+		display: none;
+	}
+
+
+	#nav_falso{
+
+		margin-top: -15px;
+		display: none;
+		background-color: orange;
+		text-align: center;	
+
+	}
+
+	#nav_falso ul li{
+		list-style-type:none;
+	}
+
+	#nav_falso ul a li{
+		color:white;
+		font-size:1.2em;
+	}
+	#nav_falso ul a li{
+		padding: 0.3em;
+		padding-left: 0em;
+		margin-left: 0em;
+	}
+
+	#nav_falso ul a li:hover, #nav_falso ul a:hover{
+		color: #22BCE0;
+		font-size: 1.8em;
+		text-shadow:black 2px 2px 2px;
+	}
+
+	#figure_uan{
+		top:23em;
+		width:100px;
+	}
+	#figure_uan img{
+		
+		height: 50px;
+	}
+
+	#figure_uan1{
+		display: none;
+	}
+
+	footer section #foot3{
+		margin-left: 2em;
+	}
+	
+	.container{
+		width: 100%;
+		position: relative;
+		min-height: 550px;
+	}
+
+
+	#principal #inicio #complemento .icon-bullhorn{
+		font-size: 500%;
+		margin-top: 3%;
+		left: 0.3em;
+	}
+
+	.icon-pencil{
+		font-size: 300%;
+	}
+
+	#loggin #loggin1{
+		width: 80%;
+		margin-top: 6em;
+		height: 30em;
+	}
+
+	#loggin #loggin1 #loggin2{
+		font-size: 40px;
+		margin-top: -1.2em;
+		height: 50%;
+	}
+ 
+ 	#loggin #loggin1 #loggin2 .icon-close{
+ 		font-size: 1em;
+ 	}
+ 	#loggin #loggin1 #loggin2 .icon-close:hover{
+ 		color:white;
+ 		font-size: 1em;
+ 	}
+
+
+	#loggin #loggin1 #loggin2 h3{
+		padding-top: 1em;
+	}
+
+	#loggin #loggin1 aside{
+		height: 55%;
+	}
+
+	#loggin #loggin1 aside form{
+		margin-top: -0.5em;
+		margin-left: -2em
+	}
+
+	#loggin #loggin1 aside .icon-briefcase{
+		font-size: 4em;
+		margin-top:1.2em;
+		right: 2em;
+	}
+
+	/*Section slider*/
+	.container #jms-slideshow .step img{
+		margin-top: 3em;
+		right: 12em;
+		width: 250px;
+	}
+
+	.container #jms-slideshow .step .jms-content h3{
+		margin-left: 5em;
+		font-size: 2.5em;
+		margin-top: 1em;
+		width:60%;
+	}
+
+    .container #jms-slideshow .step .jms-content p{
+		font-size: 1.6em;
+		top:0em;
+		left: 7em;
+		width: 60%;
+	}
+
+	.container #jms-slideshow .step .jms-content .jms-link{
+		margin-left: 50em;
+		margin-top: 6em;
+		width: 6em;
+		font-size: 10px;
+	}
+
+
+
+}/*Fin media query 1050*/
+
+@media screen and (max-width: 600px){
+	#sitios .icon-yelp{
+		display: none;
+	}
+
+	footer section #foot1{
+	margin-left: 2em;
+	}
+
+	footer section #foot2{
+		margin-left: 2em;
+		
+	}
+
+
+	footer section #foot3{
+		margin-left: 2em;
+		top:0em;
+		width: 10em;
+	}
+
+	#inicio h2{
+		font-size: 20px;
+	}
+
+	#principal #inicio #complemento .icon-bullhorn{
+		font-size: 200%;
+		margin-top: 3%;
+		left: 0.3em;
+	}
+
+	.icon-pencil{
+		font-size: 200%;
+	}
+
+	header h1{
+		font-size: 15px;
+		margin-left: 10em;
+	}
+
+	header h1:hover{
+		font-size: 16px;
+		margin-top: 1em;
+	}
+
+	#mision #mis{
+		font-size: 3em;
+	}
+
+	#vision #vis{
+		font-size: 3em;
+	}
+
+	#vision #vis_descrip{
+		font-size: 14px;
+	}
+
+	#mision #mis_descrip{
+		font-size: 14px;
+	}
+
+	#sitios h3{
+		font-size: 3em;
+		padding-top: 0em;
+	}
+
+	#loggin #loggin1{
+		width: 95%;
+		margin-top: 6em;
+		height: 20em;
+	}
+
+	#loggin #loggin1 #loggin2{
+		font-size: 20px;
+		margin-top: -1.2em;
+		height: 50%;
+	}
+ 
+ 	#loggin #loggin1 #loggin2 .icon-close{
+ 		font-size: 1em;
+ 	}
+ 	#loggin #loggin1 #loggin2 .icon-close:hover{
+ 		color:white;
+ 		font-size: 1em;
+ 	}
+
+	#loggin #loggin1 #loggin2 h3{
+		padding-top: 1em;
+	}
+
+	#loggin #loggin1 aside{
+		height: 55%;
+	}
+
+	#loggin #loggin1 aside form{
+		margin-top: -2em;
+		margin-left: -2em
+	}
+
+	#loggin #loggin1 aside .icon-briefcase{
+		font-size: 1.5em;
+		margin-top: 5.5em;
+		right: 1.5em;
+	}
+
+/*Section slider*/
+	.container #jms-slideshow .step img{
+		margin-top: 0px;
+		left: 24em;
+		width: 180px;
+	}
+
+	.container #jms-slideshow .step .jms-content h3{
+		margin-left: 15em;
+		font-size: 1.6em;
+		margin-top: 6.5em;
+		width:40%;
+	}
+
+    .container #jms-slideshow .step .jms-content p{
+		font-size: 1.2em;
+		top:0em;
+		left: 20em;
+		width: 40%;
+	}
+
+	.container #jms-slideshow .step .jms-content .jms-link{
+		margin-left: 50em;
+		margin-top: 1em;
+		width: 6em;
+		font-size: 10px;
+	}
+
+
+}/*Fin media query 600*/
+
+@media screen and (max-width: 600px){
+	
+}
